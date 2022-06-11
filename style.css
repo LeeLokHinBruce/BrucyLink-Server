@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(109, 240, 194);
+    border: white solid 15px;
+}
+
+[class*="col"] {
+    border: black solid 5px;
+    background-color: rgb(100, 0, 228);
+    color: rgb(255, 255, 255);
+    min-height: 355px;
+}
+
+#b {
+    background: url("https://images.pexels.com/photos/302897/pexels-photo-302897.jpeg?cs=srgb&dl=pexels-chevanon-photography-302897.jpg&fm=jpg") no-repeat 50% 50%;
+    background-size: cover;
+    opacity: .5;
+}
+
+#c {
+    background: url("https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?cs=srgb&dl=pexels-tyler-nix-2396220.jpg&fm=jpg") no-repeat 50% 50%;
+    background-size: cover;
+    opacity: .5;
+}
