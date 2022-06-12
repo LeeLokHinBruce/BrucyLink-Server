@@ -2,26 +2,75 @@ body {
     background-color: black;
 }
 
-.container {
-    background-color: rgb(109, 240, 194);
-    border: white solid 15px;
+section {
+    margin: 50px auto;
 }
 
-[class*="col"] {
+.container {
+    color: white;
+    margin-top: 120px;
+}
+
+[class*="col-"] {
     border: black solid 5px;
-    background-color: rgb(100, 0, 228);
-    color: rgb(255, 255, 255);
-    min-height: 355px;
+    color: white;
+    min-height: 250px;
+}
+
+#a {
+    background: url("https://images.pexels.com/photos/1739748/pexels-photo-1739748.jpeg?cs=srgb&dl=pexels-davide-baraldi-1739748.jpg&fm=jpg") no-repeat 80% 80%;
+    background-size: cover;
 }
 
 #b {
     background: url("https://images.pexels.com/photos/302897/pexels-photo-302897.jpeg?cs=srgb&dl=pexels-chevanon-photography-302897.jpg&fm=jpg") no-repeat 50% 50%;
     background-size: cover;
-    opacity: .5;
 }
 
 #c {
     background: url("https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?cs=srgb&dl=pexels-tyler-nix-2396220.jpg&fm=jpg") no-repeat 50% 50%;
     background-size: cover;
+}
+
+#d {
+    background: url("https://images.pexels.com/photos/2616172/pexels-photo-2616172.jpeg?cs=srgb&dl=pexels-anna-tukhfatullina-food-photographerstylist-2616172.jpg&fm=jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#e {
+    background: url("https://images.pexels.com/photos/1581687/pexels-photo-1581687.jpeg?cs=srgb&dl=pexels-cyril-caiazzo-1581687.jpg&fm=jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#f {
+    background: url("https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?cs=srgb&dl=pexels-adam-lukac-773958.jpg&fm=jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.img-btn {
     opacity: .5;
+    transition: .3s ease-out .1s;
+    cursor: pointer;
+}
+
+.img-btn:hover {
+    opacity: 1;
+}
+
+#navbarNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .1s ease-in-out;
+    padding: 20px;
+    margin: 0 30px 0;
+    border: black solid 2px;
+}
+
+#navbarNav ul li a:hover {
+    border: white solid 2px;
+}
+
+#navbarNav ul li a.active {
+    border: white solid 2px;
 }
