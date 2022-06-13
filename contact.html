@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Coffee Time - Contact</title>
 </head>
 
@@ -23,77 +24,73 @@
 
     <div class="container">
         <div class="row">
-            <div class="col">
-                <!-- start of Contact -->
-                <section id="contact">
-                    <form class="m-5">
-                        <h1 class="border-bottom pb-3">CONTACT US</h1>
-                        <p>Find our list of contacts below or leave us an enquiry. For wholesale enquiries please visit
-                            Partnerships.</p>
-                        <p>For media enquiries please send an email to media@coffeetime.com.</p>
-                        <br>
-                        <h2 class="border-top py-4">NEW SOUTH WALES (HQ)</h2>
-                        <h4 class="font-weight-bold" style="color: rgb(122, 158, 104);">ADDRESS</h4>
-                        <ul>
-                            <li>Coffee Time</li>
-                            <li>1/16 Baker Street</li>
-                            <li>Banksmeadow NSW 2019</li>
-                        </ul>
-                        <h4 class="font-weight-bold" style="color: rgb(122, 158, 104);">CONTACT</h4>
-                        <ul>
-                            <li>Phone:(02) 9316 9032</li>
-                            <li>Email: reception@coffeetime.com</li>
-                        </ul>
-                    </form>
-                </section>
-                <!-- end of Contact -->
-            </div>
+            <!-- start of Contact -->
+            <section id="contact" class="col">
+                <form class="m-5">
+                    <h1 class="border-bottom py-4">CONTACT US</h1>
+                    <p>Find our list of contacts below or leave us an enquiry. For wholesale enquiries please visit
+                        Partnerships.</p>
+                    <p>For media enquiries please send an email to media@coffeetime.com.</p>
+                    <br>
+                    <h2 class="border-top py-4">NEW SOUTH WALES (HQ)</h2>
+                    <h4 class="font-weight-bold" style="color: rgb(122, 158, 104);">ADDRESS</h4>
+                    <ul class="ml-5">
+                        <li>Coffee Time</li>
+                        <li>1/16 Baker Street</li>
+                        <li>Banksmeadow NSW 2019</li>
+                    </ul>
+                    <h4 class="font-weight-bold" style="color: rgb(122, 158, 104);">CONTACT</h4>
+                    <ul class="ml-5">
+                        <li>Phone:(02) 9316 9032</li>
+                        <li>Email: reception@coffeetime.com</li>
+                    </ul>
+                </form>
+            </section>
+            <!-- end of Contact -->
 
-            <div class="col">
-                <!-- start of Form -->
-                <section id="form">
-                    <form action="POST" class="m-5">
-                        <h2>GENERAL ENQUIRIES</h2>
-                        <div class="row">
-                            <div class="col">
-                                <label for="name" class="mt-4">NAME</label>
-                                <br>
-                                <input type="text" id="name" name="name" class="border border-secondary rounded">
-                            </div>
-                            <div class="col">
-                                <label for="email" class="mt-4">PHONE</label>
-                                <br>
-                                <input type="text" id="phone" name="phone" class="border border-secondary rounded">
-                            </div>
+            <!-- start of Form -->
+            <section id="form" class="col">
+                <form action="POST" class="m-5">
+                    <h2 class="py-4">GENERAL ENQUIRIES</h2>
+                    <div class="row">
+                        <div class="col">
+                            <label for="name" class="mt-4">NAME</label>
+                            <br>
+                            <input type="text" id="name" name="name" class="border border-secondary rounded">
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <label for="email" class="mt-4">EMAIL</label>
-                                <br>
-                                <input type="text" id="email" name="email" class="border border-secondary rounded">
-                            </div>
-                            <div class="col">
-                                <label for="email" class="mt-4">SUBJECT</label>
-                                <br>
-                                <input type="text" id="subject" name="subject" class="border border-secondary rounded">
-                            </div>
+                        <div class="col">
+                            <label for="email" class="mt-4">PHONE</label>
+                            <br>
+                            <input type="text" id="phone" name="phone" class="border border-secondary rounded">
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <label for="comment" class="mt-4">YOUR MESSAGE</label>
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="email" class="mt-4">EMAIL</label>
+                            <br>
+                            <input type="text" id="email" name="email" class="border border-secondary rounded">
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <textarea name="comment" id="comment" cols="60" rows="14"
-                                    class="border border-secondary rounded"></textarea>
-                            </div>
+                        <div class="col">
+                            <label for="email" class="mt-4">SUBJECT</label>
+                            <br>
+                            <input type="text" id="subject" name="subject" class="border border-secondary rounded">
                         </div>
-                        <input type="submit" value="SUBMIT" class="btn btn-secondary mt-4 px-4" id="submit-btn">
-                    </form>
-                </section>
-                <!-- end of Form -->
-            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="comment" class="mt-4">YOUR MESSAGE</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea name="comment" id="comment" cols="60" rows="14"
+                                class="border border-secondary rounded"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="SUBMIT" class="btn btn-secondary my-4 px-4" id="submit-btn">
+                </form>
+            </section>
+            <!-- end of Form -->
         </div>
 
     </div>

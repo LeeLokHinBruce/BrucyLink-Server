@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@300;500&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Coffee Time - Home</title>
 </head>
@@ -23,10 +25,9 @@
     <!-- end of Navbar -->
 
     <!-- start of main banner -->
-    <section class="jumbotron jumbotron-fluid"
-        style="background: url(https://images.pexels.com/photos/583001/pexels-photo-583001.jpeg?cs=srgb&dl=pexels-lukas-583001.jpg&fm=jpg) no-repeat 50% 50%; background-size: cover; height: 500px;">
+    <section id="banner" class="jumbotron jumbotron-fluid">
         <div class="bg-secondary text-center text-white" style="opacity: .8;">
-            <h1 class="display-3 align-self-center py-3">Freshly Roasted Delivered Daily</h1>
+            <h1 id="header" class="align-self-center py-3">Freshly Roasted Delivered Daily</h1>
         </div>
     </section>
     <!-- end of main banner -->
@@ -35,41 +36,41 @@
         <!-- start of Quote Section -->
         <section id="quote">
             <div class="row">
-                <div class="col-9">
+                <div class="col-md-9 display-4 col-sm-12 text-right">
                     <div class="row">
-                        <div id="a" class="img-btn col-12 text-center display-4">
+                        <div id="a" class="img-btn col-12 text-center">
                             <p>SHOP</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div id="b" class="img-btn col-8 display-4">
+                        <div id="b" class="img-btn col-8">
                             <p>LECTURE</p>
                         </div>
-                        <div id="c" class="img-btn col-4 align-items-center text-center font-weight-bold">
-                            <p>INTRODUCTION</p>
+                        <div id="c" class="img-btn col-4 text-center">
+                            <p>PHOTO</p>
                         </div>
                     </div>
                 </div>
-                <div id="d" class="img-btn col-3 display-4">
+                <div id="d" class="img-btn col-md-3 display-4 col-sm-12 text-right">
                     <p>RECIPE</p>
                 </div>
             </div>
 
             <div class="row">
-                <div id="e" class="img-btn col-5 display-4 text-right">
+                <div id="e" class="img-btn col-md-5 display-4 text-right col-sm-12">
                     <p>HISTORY</p>
                 </div>
-                <div id="f" class="img-btn col-7 text-right display-4">
+                <div id="f" class="img-btn col-md-7 display-4 text-right col-sm-12">
                     <p>CUSTOM ROASTS</p>
                 </div>
             </div>
         </section>
         <!-- end of Quote Section -->
 
-        <section id="row-with-card">
+        <section id="row-with-card" style="font-family: 'Dancing Script', cursive;">
             <div class="row mb-5 justify-content-center">
-                <div class="col-md-4 col-sm-8 card border-0 text-white bg-secondary m-3" style="width: 100px;">
-                    <div class="card-header text-center">Latte</div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class=" card-header text-center">Latte</div>
                     <img class="card-img-top"
                         src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chai-latte-4e5fe2f.jpg?quality=90&webp=true&resize=300,272"
                         alt="card-latter">
@@ -80,10 +81,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-8 card border-0 text-white bg-secondary m-3" style="width: 100px;">
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
                     <div class="card-header text-center">Cappuccino</div>
                     <img class="card-img-top"
-                        src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cappuccino_at_Lund.jpg" alt="card-cappuccino">
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cappuccino_at_Lund.jpg"
+                        alt="card-cappuccino">
                     <div class="card-body">
                         <ul class="card-text px-4">
                             <li>Espresso</li>
@@ -92,14 +94,88 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-8 card border-0 text-white bg-secondary m-3" style="width: 100px;">
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
                     <div class="card-header text-center">Americano</div>
                     <img class="card-img-top"
-                        src="https://www.acouplecooks.com/wp-content/uploads/2022/01/Iced-Americano-008.jpg" alt="card-americano">
+                        src="https://enjoyjava.com/wp-content/uploads/2021/08/how-to-make-an-americano-735x525.jpg"
+                        alt="card-americano">
                     <div class="card-body">
                         <ul class="card-text px-4">
                             <li>Espresso</li>
                             <li>Hot water</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class="card-header text-center">Irish</div>
+                    <img class="card-img-top"
+                        src="https://kirbiecravings.com/wp-content/uploads/2019/06/cold-brew-irish-coffee-18-700x726.jpg"
+                        alt="card-irish">
+                    <div class="card-body">
+                        <ul class="card-text px-4">
+                            <li>Coffee</li>
+                            <li>Whiskey</li>
+                            <li>Sugar</li>
+                            <li>Cream</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class="card-header text-center">Mocha</div>
+                    <img class="card-img-top"
+                        src="https://www.thespruceeats.com/thmb/Ogfzvp2MW6_Sdz7bmDx5Yr_bJEs=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/mocha-4797918-05-f664d7225d5a4b14abdeacd2bf48471f.jpg"
+                        alt="card-mocha">
+                    <div class="card-body">
+                        <ul class="card-text px-4">
+                            <li>Espresso</li>
+                            <li>Chocolate</li>
+                            <li>Steamed milk</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class="card-header text-center">Black</div>
+                    <img class="card-img-top"
+                        src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/06/blackcoffee-1561170296.jpg"
+                        alt="card-black">
+                    <div class="card-body">
+                        <ul class="card-text px-4">
+                            <li>Just coffee</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class="card-header text-center">Affogato</div>
+                    <img class="card-img-top"
+                        src="https://cdn.shopify.com/s/files/1/0021/4401/0358/files/Hojicha_Affogato_Recipe.jpg?v=1629042975"
+                        alt="card-affogato">
+                    <div class="card-body">
+                        <ul class="card-text px-4">
+                            <li>Espresso</li>
+                            <li>Ice cream</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class="card-header text-center">Cortado</div>
+                    <img class="card-img-top" src="https://coffeeaffection.com/wp-content/uploads/2021/02/Cortado.webp"
+                        alt="card-cortado">
+                    <div class="card-body">
+                        <ul class="card-text px-4">
+                            <li>1oz Espresso</li>
+                            <li>1oz Streamed milk</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-8 card border-0 text-white m-3" style="font-size: 18px;">
+                    <div class="card-header text-center">Flat white</div>
+                    <img class="card-img-top"
+                        src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-d8ada0f.jpg?quality=90&webp=true&resize=300,272"
+                        alt="card-flat-white">
+                    <div class="card-body">
+                        <ul class="card-text px-4">
+                            <li>Espresso</li>
+                            <li>Streamed milk</li>
                         </ul>
                     </div>
                 </div>
