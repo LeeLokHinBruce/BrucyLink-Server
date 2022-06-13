@@ -10,15 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Coffee Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Coffee Time - Home</title>
 </head>
 
 <body>
     <!-- start of Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="#">
             <img src="https://img.freepik.com/free-vector/coffee-shop-logo-food-business-template-branding-design-vector-espresso-yourself-text_53876-136278.jpg?t=st=1654909900~exp=1654910500~hmac=fc2e56eb393523ad8e1a12f34e46cbb5fcc712c7fdf99305f70e99ab86f032ac&w=740"
-                width="100" alt="coffee time logo" class="d-inline-block align-top">
+                width="100" alt="coffee time logo" class="d-inline-block align-top mx-4">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -28,16 +32,21 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="navbar-item active">
-                    <a class="navbar-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="navbar-item active px-4">
+                    <a class="navbar-link" href="./index.html">HOME <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" href="#">About Us</a>
+                <li class="navbar-item px-4">
+                    <a class="navbar-link" href="./about.html">ABOUT US</a>
                 </li>
-                <li class="navbar-item">
-                    <a class="navbar-link" href="#">Contact Us</a>
+                <li class="navbar-item px-4">
+                    <a class="navbar-link" href="./contact.html">CONTACT</a>
                 </li>
             </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
     <!-- end of Navbar -->
@@ -51,41 +60,71 @@
     </section>
     <!-- end of main banner -->
 
-    <!-- start of Container -->
     <div class="container">
         <!-- start of Quote Section -->
-        <div class="row">
-            <div class="col-9">
-                <div class="row">
-                    <div id="a" class="img-btn col-12 text-center display-4">
-                        <p>Shop</p>
+        <section class="quote">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row">
+                        <div id="a" class="img-btn col-12 text-center display-4">
+                            <p>SHOP</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="b" class="img-btn col-8 display-4">
+                            <p>LECTURE</p>
+                        </div>
+                        <div id="c" class="img-btn col-4 align-items-center text-center font-weight-bold">
+                            <p>INTRODUCTION</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div id="b" class="img-btn col-8 display-4">
-                        <p>Lecture</p>
-                    </div>
-                    <div id="c" class="img-btn col-4 align-items-center text-center font-weight-bold">
-                        <p>Introduction</p>
-                    </div>
+                <div id="d" class="img-btn col-3 display-4">
+                    <p>RECIPE</p>
                 </div>
             </div>
-            <div id="d" class="img-btn col-3 display-4">
-                <p>Coffee's Recipe</p>
-            </div>
-        </div>
 
-        <div class="row">
-            <div id="e" class="img-btn col-5 display-4 text-right">
-                <p>History</p>
+            <div class="row">
+                <div id="e" class="img-btn col-5 display-4 text-right">
+                    <p>HISTORY</p>
+                </div>
+                <div id="f" class="img-btn col-7 text-right display-4">
+                    <p>CUSTOM ROASTS</p>
+                </div>
             </div>
-            <div id="f" class="img-btn col-7 text-right display-4">
-                <p>Coffee Production</p>
-            </div>
-        </div>
+        </section>
         <!-- end of Quote Section -->
+
+        <!-- start of Carousel -->
+        <section class="pictures">
+            <div class="row "></div>
+        </section>
+        <!-- end of Carousel -->
+
+        <!-- start of Footer -->
+        <footer>
+            <section class="footer text-center" style="background-color: rgb(107, 93, 82);">
+                <ul style="list-style-type: none">
+                    <li class="p-2">We would love to hear from you!</li>
+                    <li class="p-2">Band: Coffee Time</li>
+                    <li class="p-2">Hotline: 3500 7164</li>
+                    <li class="p-2">Office Hours:</li>
+                    <li class="p-2">Monday to Friday, 9:00 AM - 6:00 PM, (excluding Saturdays, Sundays and public
+                        holidays)</li>
+                    <li class="p-2">Address</li>
+                    <li class="p-2">Unit 03, 7/F, Millennium Trade Centre, 56 Kwai Cheong Road, Kwai Chung, NT</li>
+                    <li class="p-2">
+                        <i class="fa fa-instagram px-3" style="font-size: 20px;"></i>
+                        <i class="fa fa-facebook px-3" style="font-size: 20px;"></i>
+                        <i class="fa fa-twitter px-3" style="font-size: 20px;"></i>
+                    </li>
+                    <li class="p-2">Copyright <span style="font-size: 20px;">&copy;</span> 2022</li>
+                </ul>
+            </section>
+        </footer>
+        <!-- end of Footer -->
+
     </div>
-    <!-- end of Container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
