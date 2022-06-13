@@ -14,13 +14,13 @@ class Navbar extends HTMLElement {
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
-                <li class="navbar-item active px-4">
+                <li class="navbar-item active m-4">
                     <a class="navbar-link" href="./index.html">HOME <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="navbar-item px-4">
+                <li class="navbar-item m-4">
                     <a class="navbar-link" href="./about.html">ABOUT US</a>
                 </li>
-                <li class="navbar-item px-4">
+                <li class="navbar-item m-4">
                     <a class="navbar-link" href="./contact.html">CONTACT</a>
                 </li>
             </ul>

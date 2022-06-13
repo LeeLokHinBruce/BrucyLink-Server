@@ -2,6 +2,16 @@
     --pure-brown-color: rgb(107, 93, 82);
 }
 
+/* [class*="row-"] {
+    background-color: blueviolet;
+    border: white solid 5px;
+}
+
+[class*="col-"] {
+    background-color: orange;
+    border: black solid 5px;
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +26,21 @@ section {
     margin-top: 80px;
 }
 
+#banner {
+    background: url(https://images.pexels.com/photos/583001/pexels-photo-583001.jpeg?cs=srgb&dl=pexels-lukas-583001.jpg&fm=jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 500px;
+}
+
 .container {
     color: white;
 }
 
 /* home part */
+
+h1#header {
+    font-size: 70px;
+}
 
 #a {
     background: url("https://images.pexels.com/photos/1739748/pexels-photo-1739748.jpeg?cs=srgb&dl=pexels-davide-baraldi-1739748.jpg&fm=jpg") no-repeat 80% 80%;
@@ -82,9 +102,19 @@ section {
     border: white solid 2px;
 }
 
+[class*="col-sm-"] {
+    font-size: 40px;
+}
+
+.card {
+    background-color: var(--pure-brown-color);
+}
+
 /* about part */
 
-
+.about-content {
+    font-size: 18px;
+}
 
 /* contact part */
 
@@ -102,4 +132,132 @@ section#form {
 
 #submit-btn {
     font-size: 18px;
+}
+
+/* Ipad size */
+
+@media screen and (min-device-width: 481px) and (max-device-width: 820px) {
+    #navbarNav ul li a {
+        font-size: 22px;
+        padding: 19px;
+        margin: 0 25px 0;
+    }
+
+    #navbarNav form input {
+        width: 250px;
+    }
+
+    h1#header {
+        font-size: 60px;
+    }
+
+    #banner-1 {
+        display: block;
+        margin: 40px auto 0;
+    }
+
+    #banner-2 {
+        display: none;
+    }
+
+    #banner-3 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #banner-4 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    section#contact {
+        width: 100%;
+        height: auto;
+    }
+
+    section#form {
+        width: 100%;
+        height: auto;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    app-footer {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+/* Smartphone size */
+
+@media (max-width: 480px) {
+    #navbarNav ul li a {
+        font-size: 20px;
+        padding: 18px;
+        margin: 0 20px 0;
+    }
+
+    #navbarNav form input {
+        width: 250px;
+        margin-right: 10px;
+    }
+
+    #banner {
+        height: 400px;
+    }
+
+    h1#header {
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    section#about h1 {
+        font-size: 50px;
+    }
+
+    #banner-1 {
+        width: 350px;
+        display: block;
+        margin: 60px auto 0;
+    }
+
+    #banner-2,
+    #banner-3 {
+        display: none;
+    }
+
+    #banner-4 {
+        width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-content {
+        padding: 2px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    section#contact {
+        width: 100%;
+        height: auto;
+    }
+
+    section#form {
+        width: 100%;
+        height: auto;
+    }
+
+    textarea {
+        width: 300px;
+        height: 200px;
+    }
+
+    app-footer {
+        font-size: 12px;
+        width: 100%;
+    }
 }
