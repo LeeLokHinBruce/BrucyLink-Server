@@ -88,13 +88,13 @@ section {
 
 /* contact part */
 
-section.contact {
+section#contact {
     background-color: var(--pure-brown-color);
     width: 400px;
     height: 800px;
 }
 
-section.form {
+section#form {
     background-color: var(--pure-brown-color);
     width: 650px;
     height: 800px;
